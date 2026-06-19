@@ -1,0 +1,46 @@
+{
+  "name": "taskmaster-api",
+  "version": "1.1.0",
+  "description": "Simple task managment api used to perform user authentication, autorization and CRUD operations",
+  "keywords": [
+    "Task",
+    "Task-Management",
+    "Task-CRUD-Operatios"
+  ],
+  "homepage": "https://github.com/DGashaw/TaskMaster-API_v1.1.0#readme",
+  "bugs": {
+    "url": "https://github.com/DGashaw/TaskMaster-API_v1.1.0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DGashaw/TaskMaster-API_v1.1.0.git"
+  },
+  "license": "MIT",
+  "author": "Daniel Gashaw",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && mocha **/*.test.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1",
+    "morgan": "^1.11.0",
+    "rotating-file-stream": "^3.2.9",
+    "validator": "^13.15.35"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "debug": "^4.4.3",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "mocha": "^11.7.6",
+    "nodemon": "^3.1.14",
+    "nyc": "^18.0.0",
+    "supertest": "^7.2.2"
+  }
+}
