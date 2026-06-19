@@ -432,15 +432,16 @@ npm run test-coverage
 ```
 TaskMaster-API/
 ├── config/
-│   └── dbConnect.js          # MongoDB connection
+│   └── databaseConnection.js          # MongoDB connection
+
 ├── controller/
-│   ├── taskApiController.js  # Task business logic
+│   ├── taskController.js  # Task business logic
 │   └── authController.js     # Authentication logic (NEW)
 ├── models/
 │   ├── taskSchema.js         # Task model
 │   └── userSchema.js         # User model (NEW)
 ├── routes/
-│   ├── taskApiRoutes.js      # Task endpoints
+│   ├── taskRoutes.js      # Task endpoints
 │   └── authRoutes.js         # Auth endpoints (NEW)
 ├── utility/
 │   ├── apiAuthentication.js  # Middleware (UPDATED)
